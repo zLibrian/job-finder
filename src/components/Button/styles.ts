@@ -5,6 +5,7 @@ import { TouchableOpacityProps } from 'react-native';
 
 export type ButtonProps = TouchableOpacityProps & {
   title: string;
+  fontSize?: string;
   RightIcon?: React.ReactNode;
   LeftIcon?: React.ReactNode;
 };
@@ -32,4 +33,5 @@ export const ButtonContainer = styled.TouchableOpacity<ButtonProps>`
 
 export const ButtonText = styled(CustomText)`
   padding: 0 4px;
+  font-size: ${({ fontSize }) => (fontSize ? fontSize : '16px')};
 `;

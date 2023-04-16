@@ -4,7 +4,7 @@ export function Button(props: ButtonProps) {
   return (
     <ButtonContainer {...props}>
       {props.LeftIcon}
-      <ButtonText>{props.title}</ButtonText>
+      <ButtonText fontSize={props.fontSize}>{props.title}</ButtonText>
       {props.RightIcon}
     </ButtonContainer>
   );
