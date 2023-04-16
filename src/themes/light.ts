@@ -13,7 +13,8 @@ export const light = {
   },
 
   fonts: {
-    regular: 'Poppins_400Regular',
-    bold: 'Poppins_700Bold',
+    regular: 'Roboto_400Regular',
+    medium: 'Roboto_500Medium',
+    bold: 'Roboto_700Bold',
   },
 };

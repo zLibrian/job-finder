@@ -1,9 +1,9 @@
-import { SafeAreaView, Text } from 'react-native';
-
+import { FindJobs } from '../../components/FindJobs';
+import { Container } from './styles';
 export default function Home() {
   return (
-    <SafeAreaView>
-      <Text>Home screen</Text>
-    </SafeAreaView>
+    <Container>
+      <FindJobs />
+    </Container>
   );
 }
